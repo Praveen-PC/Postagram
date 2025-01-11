@@ -1,0 +1,39 @@
+
+
+/* Navbar item styles */
+.nav-item {
+  font-weight: 600;
+  color: grey;
+  margin: 0 8px;
+}
+
+.nav-link {
+  color: grey;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link.active {
+  background-color: rgb(188, 238, 244);
+  font-weight: bold;
+  color: black;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.nav-link:hover {
+  background-color: rgba(188, 238, 244, 0.5);
+  color: black;
+}
+
+/* Logout button for small screens (inside toggle menu) */
+.nav-item .btn {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.login{
+  background-image: url(https://img.freepik.com/premium-vector/blue-white-background-with-floral-pattern_1031481-14.jpg?semt=ais_hybrid);
+}
