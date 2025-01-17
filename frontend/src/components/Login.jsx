@@ -32,7 +32,7 @@ const Login = () => {
               type="text"
               id="phone"
               className="form-control"
-              placeholder="Enter your phone number"
+              placeholder="Enter your UserName"
               value={phoneNo}
               onChange={(e) => setPhoneNo(e.target.value)}
             />
