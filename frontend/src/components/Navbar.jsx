@@ -11,8 +11,6 @@ const Navbar = () => {
 
   const navbar = [
     { name: 'Dashboard', link: '/dashboard' },
-    { name: 'Program', link: '/program' },
-    { name: `Devotee's`, link: '/devotees' },
     { name: 'Add', link: '/add' },
   ];
 
@@ -26,7 +24,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light p-2">
       <div className="container-fluid">
         <Link to="/dashboard" className="navbar-brand fw-bold">
-          Navbar
+          PostaGRAM
         </Link>
         {isToken ? (<>
         <button

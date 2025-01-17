@@ -12,7 +12,7 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     try {
-      const values = [{ phoneNo: phoneNo }, { password: password }];
+      const values = { username: phoneNo ,  password: password };
       sessionStorage.setItem('token', JSON.stringify(values)); 
       setIsToken(true);  
       navigate('/dashboard');
@@ -27,7 +27,7 @@ const Login = () => {
         <h2 className="text-center text-dark">Login</h2>
         <form onSubmit={handleLogin}>
           <div className="mb-3">
-            <label htmlFor="phone" className="form-label">Phone Number</label>
+            <label htmlFor="phone" className="form-label">UserName</label>
             <input
               type="text"
               id="phone"
